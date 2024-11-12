@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<link rel="stylesheet" href="apna.css">
+<body>
+    <center><div class="contact-section">
+        <h2>Contact Us</h2>
+        
+        <div class="contact-info">
+            <div>
+                <h3>Customer Support</h3>
+                <p>Phone: +91-800-555-1234</p>
+                <p>Email: support@apnastore.com</p>
+                <p>Business Hours: Mon-Fri, 9 AM - 5 PM</p>
+            </div>
+            
+            <div>
+                <h3>Headquarters</h3>
+                <p>140011 Apna Store<br> 
+                   Jalandhar, punjab, 140011</p>
+                <p>Phone: +91-800-555-5678</p>
+                <p>Email: info@apnastore.com</p>
+            </div>
+        </div>
+    
+        <div class="contact-form" link="Contact">
+            <form action="submit_inquiry.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="order-number">Order Number (if applicable)</label>
+                <input type="text" id="order-number" name="order-number">
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <button type="submit">Submit Inquiry</button>
+            </form>
+        </div>
+    </div></center>
+    
+</body>
+</html>
